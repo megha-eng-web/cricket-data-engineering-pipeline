@@ -1,0 +1,6 @@
+boto3
+requests
+python-dotenv
+gspread
+google-auth
+psycopg2-binary

@@ -1,6 +1,9 @@
 # Environment variables
 .env
 
+# Google credentials
+creds/
+
 # Python cache
 __pycache__/
 *.pyc
@@ -13,3 +16,12 @@ logs/
 
 # macOS
 .DS_Store
+
+# Local/generated data
+data/*
+!data/sample/
+!data/sample/*
+
+
+# Local API response
+series_info_response.json
